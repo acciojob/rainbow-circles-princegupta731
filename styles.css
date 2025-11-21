@@ -1,1 +1,51 @@
-/*  your css code here. If applicable */
+#outer {
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  border-radius: 50%;
+  padding: 25px; /* Creates next circle */
+  box-sizing: border-box;
+}
+
+#middle {
+  width: 250px;
+  height: 250px;
+  background: #ffa500;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#inner {
+  width: 200px;
+  height: 200px;
+  background: #ffff00;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#inner > div {
+  width: 150px;
+  height: 150px;
+  background: #008000;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#inner > div > div {
+  width: 100px;
+  height: 100px;
+  background: #0000ff;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+#inner > div > div > div {
+  width: 50px;
+  height: 50px;
+  background: #800080;
+  border-radius: 50%;
+}
