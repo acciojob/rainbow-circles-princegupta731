@@ -3,7 +3,7 @@
   height: 300px;
   background: #ff0000;
   border-radius: 50%;
-  padding: 25px; /* Creates next circle */
+  padding: 25px; 
   box-sizing: border-box;
 }
 
